@@ -47,7 +47,8 @@ body * {
 }
 
 #container { 
-  width: 360px;
+  width: 100%;
+  max-width: 588px;
   margin: 56px auto 0px; 
   /* sobre margin: a regra que se aplica aqui é a seguinte: se houver apenas uma propriedade, aplica em todos os 4 cantos. se houverem duas propriedades, a primeira aplica em cima e embaixo e a outra dos lados, se houverem três, aplica-se em cima, dos dois lados e embaixo. se houverem quatro, funciona a regrinha do relógio. cima, direita, baixo e esquerda. */
 
